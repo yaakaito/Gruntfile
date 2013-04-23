@@ -1,1 +1,16 @@
-Base Gruntfiles 
+# Gruntfiles
+============================
+
+## TypeScript
+
+* Compile TypeScript
+  * `src/**/*.ts`
+  * `test/**/*.ts`
+* Clean up compiled
+
+## CoffeeScript
+
+* Compile CoffeeScript
+  * `src/**/*.coffee`
+  * `test/**/*.coffee`
+* Clean up compiled
