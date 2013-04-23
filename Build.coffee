@@ -12,11 +12,13 @@ module.exports = (grunt) ->
             min:
                 files:
                     'build/index.min.js': ['build/index.js']
-            # options:
-            #     mangle:
-            #         expect: ['jQuery']
-            #    sourceMap: 'build/source-map.js'
-
+            ###
+            options:
+                mangle:
+                    expect: ['jQuery']
+                sourceMap: 'build/source-map.js'
+            ###
+            
     grunt.loadNpmTasks 'grunt-contrib-concat'
     grunt.loadNpmTasks 'grunt-contrib-uglify'
 
