@@ -20,4 +20,4 @@ module.exports = (grunt) ->
     grunt.loadNpmTasks 'grunt-contrib-connect'
     grunt.loadNpmTasks 'grunt-regarde'
 
-    grunt.registerTask 'preview', ['connect:preview', 'regarde']
+    grunt.registerTask 'preview', ['generate', 'connect:preview', 'regarde']
